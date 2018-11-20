@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as util from '../assets/util.js';
 
-export const baseURL = '/';
+const baseURL = '/';
 
 const instance = axios.create({
   baseURL: baseURL,
